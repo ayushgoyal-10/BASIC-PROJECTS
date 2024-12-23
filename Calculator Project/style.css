@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+}
+
+#screen{
+    
+    box-shadow: inset 0px 6px 2px rgb(188, 187, 187),
+    inset 0px -6px 2px rgb(188, 187, 187),
+    -5px 5px 1px rgb(74, 73, 73),
+    5px 5px 1px rgb(74, 73, 73),
+    0px 10px 1px rgb(74, 73, 73);
+
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(225, 240, 225);
+    margin: 30px;
+    height: 100px;
+    width: 400px;
+}
+
+.container{
+    box-shadow: 0px 15px 2px rgb(74, 73, 73);
+    margin-top: 50px;
+    height: 550px;
+    margin-left: 420px;
+    margin-right: 420px;
+    border-radius: 20px;
+    background-color: rgb(105, 104, 104);
+}
+
+.adjust{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btnContainer{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.btn{
+    box-shadow:
+    inset 0px -5px 1px rgb(188, 187, 187),
+    /* -5px 5px 1px rgb(74, 73, 73),
+    5px 5px 1px rgb(74, 73, 73), */
+    0px 5px 1px rgb(74, 73, 73);
+
+    font-weight: bold;
+    color: rgb(49, 48, 48);
+    font-size: 30px;
+    outline: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 90px;
+}
+#equal{
+    background-color: rgb(211, 142, 52);
+    box-shadow: inset 0px -5px 1px rgb(164, 95, 6);
+    color: white;
+}
+#clear{
+    background-color: rgb(234, 73, 73);
+    box-shadow: inset 0px -5px 1px rgb(188, 40, 21);
+}
+#correct{
+    font-size: 20px;
+}
